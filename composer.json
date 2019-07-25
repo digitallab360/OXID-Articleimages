@@ -1,0 +1,24 @@
+{
+    "name": "dlb360/dlb_articleimages",
+	"description": "Determine the number of product images",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop"],
+    "homepage": "https://www.digitallab360.de",
+    "version": "1.0",
+    "license": [
+      "GPL-3.0-only"
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "dlb360/dlb_articleimages"
+        }
+    },
+	"require": {
+		"php": ">=7.0"
+	},
+    "autoload": {
+      "psr-4": {
+        "DigitalLab\\ArticleImages\\": "../../../source/modules/dlb360/dlb_articleimages"
+      }
+    }
+}
